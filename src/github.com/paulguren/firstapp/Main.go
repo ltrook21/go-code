@@ -8,15 +8,15 @@ var i int = 42 // compiler := trick cannot be used outside of a function.
 
 // variable blocks that allow me to group declared variables. Just for organization.
 var (
-	username string = "Poopscoopa69"
-	email    string = "example@gmail.com"
+	Username string = "Poopscoopa69"
+	Email    string = "example@gmail.com"
 	ID       int    = 3151234
 )
 
 var (
 	databaseName string = "db"
-	user         string = "user"
-	pw           string = "pw"
+	User         string = "user"
+	PW           string = "pw"
 )
 
 func main() {
@@ -25,8 +25,8 @@ func main() {
 
 	var i int
 	i = 42
-	var j int = 27
-	k := 99
+	//var j int = 27
+	//k := 99
 
 	fmt.Println(i)
 }
